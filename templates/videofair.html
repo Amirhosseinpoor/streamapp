@@ -1,11 +1,10 @@
 <link href="https://vjs.zencdn.net/7.10.2/video-js.css" rel="stylesheet" />
 <script src="https://vjs.zencdn.net/7.10.2/video.min.js"></script>
-<!-- For custom skip controls -->
 <script src="https://cdn.jsdelivr.net/npm/videojs-hotkeys@0.2.26/videojs.hotkeys.min.js"></script>
 
 <style>
     body {
-        background: #1e1e1e; /* Dark background to enhance the player look */
+        background: #1e1e1e;
         color: #fff;
         font-family: Arial, sans-serif;
     }
@@ -18,7 +17,7 @@
         margin: 50px auto;
         max-width: 960px;
         padding: 20px;
-        background: #2c2c2c; /* Dark container background to match player */
+        background: #2c2c2c;
         border-radius: 15px;
         box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.5);
     }
@@ -90,7 +89,6 @@
         <div class="custom-controls">
             <button class="custom-button" onclick="skipBackward('video_{{ video.id }}')">« 10s</button>
             <button class="custom-button" onclick="skipForward('video_{{ video.id }}')">10s »</button>
-
         </div>
     </div>
 
