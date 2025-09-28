@@ -181,6 +181,9 @@ celery -A your_project_name worker -l info
 4. **Watch**: serve the HLS directory over HTTP (e.g., Nginx/Apache/WhiteNoise for dev) and play `output.m3u8` with an HLS-capable player (hls.js, Safari, VLC).
 
 ---
+## Loading Screen
+
+![Loading Page](docs/asssets/loading.png)
 
 ## 🧩 Key components (code tour)
 
