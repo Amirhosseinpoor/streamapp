@@ -335,6 +335,4 @@ Response on success:
 * [ ] `output.m3u8` + `.ts` segments generated
 * [ ] HLS playlist plays in browser/VideoJS/hls.js/Safari
 
----
 
-If you want, I can tailor this README to your exact repo name, app labels, URL paths, and `VideoModels` fields—just share those details.
